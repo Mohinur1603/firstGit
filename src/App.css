@@ -1,0 +1,110 @@
+header {
+  box-shadow: 0px 10px 10px 5px #dfdff895;
+  position:fixed;
+  width: 100%;
+  z-index: 10;
+  background-color: #fff;
+}
+
+.logo,
+.right {
+  padding: 0 50px;
+  height: 72px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.logoWix {
+  text-decoration: none;
+  color: #444;
+  font-weight: 500;
+  font-size: 34px;
+  padding: 20px;
+}
+.btn1 {
+  padding: 15px 40px;
+  margin-left: 40px;
+  background: #116dff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 40px;
+}
+
+.img {
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+  margin: 0px 20px;
+}
+
+.more {
+  color: #444;
+  margin-left: 20px;
+}
+
+main {
+  position: absolute;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 10%;
+}
+
+.title {
+  text-align: center;
+  margin-bottom: 50px;
+}
+.about {
+  display: flex;
+  width: 300px;
+  margin: 0 auto;
+  gap: 30px;
+}
+li {
+  list-style-type: none;
+}
+li a {
+  text-decoration: none;
+  color: #444;
+  font-weight: 400;
+}
+
+h1 {
+  font-size: 40px;
+  font-style: italic;
+  font-weight: 400;
+  color: #444;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+}
+
+.photos {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.photos img {
+  width: 315px;
+}
+
+.footer {
+  margin: 50px 0px;
+  text-align: center;
+  color: #444;
+}
+
+.footer a {
+  color: #444;
+}
+.socials {
+  margin: 0 auto;
+  display: flex;
+  width: 100px;
+  gap: 5px;
+}
+.socialSets {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  padding: 0;
+}
